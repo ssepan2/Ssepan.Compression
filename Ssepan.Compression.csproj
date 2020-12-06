@@ -4,6 +4,10 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\SharpZip\src\ICSharpCode.SharpZLib.csproj">
     </ProjectReference>
     <ProjectReference Include="..\Ssepan.Utility\Ssepan.Utility\Ssepan.Utility.csproj">
